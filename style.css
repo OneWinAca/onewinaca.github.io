@@ -1,0 +1,221 @@
+/* Global styles */
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+}
+
+.container {
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+
+header {
+	background-color: #fff;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 999;
+}
+
+header h1 {
+	color: #d82a4e;
+	font-size: 32px;
+	margin: 20px 0;
+}
+
+nav {
+	float: right;
+}
+
+nav a {
+	color: #333;
+	display: inline-block;
+	margin: 20px 10px;
+	text-decoration: none;
+	transition: all 0.2s ease-in-out;
+}
+
+nav a:hover {
+	color: #d82a4e;
+}
+
+.btn {
+	background-color: #d82a4e;
+	border-radius: 5px;
+	color: #fff;
+	display: inline-block;
+	font-size: 16px;
+	margin: 20px 0;
+	padding: 10px 20px;
+	text-decoration: none;
+	transition: all 0.2s ease-in-out;
+}
+
+.btn:hover {
+	background-color: #333;
+}
+
+/* Hero section */
+#hero {
+	background-image: url("images/hero-bg.jpg");
+	background-size: cover;
+	background-position: center;
+	height: 500px;
+	padding-top: 100px;
+}
+
+#hero h2 {
+	color: #fff;
+	font-size: 48px;
+	margin-bottom: 20px;
+}
+
+#hero p {
+	color: #fff;
+	font-size: 24px;
+	margin-bottom: 40px;
+	max-width: 500px;
+}
+
+/* Features section */
+#features {
+	background-color: #f7f7f7;
+	padding}
+
+#features h2 {
+color: #d82a4e;
+font-size: 32px;
+margin: 60px 0 40px;
+text-align: center;
+}
+
+#features p {
+color: #333;
+font-size: 18px;
+margin-bottom: 20px;
+max-width: 500px;
+text-align: center;
+}
+
+.feature {
+background-color: #fff;
+border-radius: 5px;
+box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+padding: 60px 20px;
+margin: 40px 0;
+}
+
+.feature img {
+display: block;
+height: 100px;
+margin: 0 auto 20px;
+}
+
+.feature h3 {
+color: #d82a4e;
+font-size: 24px;
+margin-bottom: 20px;
+}
+
+.feature p {
+color: #333;
+font-size: 16px;
+line-height: 1.5;
+margin-bottom: 20px;
+}
+
+/* Pricing section */
+#pricing {
+background-color: #d82a4e;
+padding: 100px 0;
+}
+
+#pricing h2 {
+color: #fff;
+font-size: 32px;
+margin: 60px 0 40px;
+text-align: center;
+}
+
+.plans {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+
+.plan {
+background-color: #fff;
+border-radius: 5px;
+box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+padding: 60px 20px;
+margin: 40px;
+text-align: center;
+width: 300px;
+}
+
+.plan h3 {
+color: #d82a4e;
+font-size: 24px;
+margin-bottom: 20px;
+}
+
+.plan p {
+color: #333;
+font-size: 16px;
+line-height: 1.5;
+margin-bottom: 20px;
+}
+
+.plan .btn {
+background-color: #d82a4e;
+border-radius: 5px;
+color: #fff;
+display: inline-block;
+font-size: 16px;
+margin-top: 20px;
+padding: 10px 20px;
+text-decoration: none;
+transition: all 0.2s ease-in-out;
+}
+
+.plan .btn:hover {
+background-color: #333;
+}
+
+/* Footer section */
+footer {
+background-color: #333;
+color: #fff;
+padding: 40px 0;
+}
+
+footer p {
+font-size: 18px;
+margin-bottom: 20px;
+}
+
+footer nav {
+text-align: center;
+}
+
+footer nav a {
+color: #fff;
+display: inline-block;
+margin: 10px;
+text-decoration: none;
+transition: all 0.2s ease-in-out;
+}
+
+footer nav a:hover {
+color: #d82a4e;
+}

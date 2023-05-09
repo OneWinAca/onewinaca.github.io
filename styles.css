@@ -1,0 +1,111 @@
+/* Global styles */
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+}
+
+.container {
+	margin: 0 auto;
+	max-width: 1200px;
+	padding: 0 20px;
+}
+
+/* Header section */
+header {
+	background-color: #d82a4e;
+	color: #fff;
+	padding: 20px 0;
+}
+
+header h1 {
+	font-size: 32px;
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+/* Delete Data section */
+#delete-data {
+	padding: 80px 0;
+}
+
+#delete-data h2 {
+	color: #d82a4e;
+	font-size: 32px;
+	margin: 0 0 40px;
+	text-align: center;
+}
+
+#delete-data p {
+	color: #333;
+	font-size: 18px;
+	margin-bottom: 20px;
+	max-width: 500px;
+	text-align: center;
+}
+
+#delete-data form {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-bottom: 40px;
+}
+
+#delete-data label {
+	display: block;
+	margin-bottom: 10px;
+}
+
+#delete-data input {
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	font-size: 16px;
+	padding: 10px;
+	width: 300px;
+}
+
+#delete-data button {
+	background-color: #d82a4e;
+	border: none;
+	border-radius: 5px;
+	color: #fff;
+	cursor: pointer;
+	font-size: 16
+}
+
+/* Footer section */
+footer {
+	background-color: #f3f3f3;
+	padding: 20px 0;
+}
+
+footer nav {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 10px;
+}
+
+footer a {
+	color: #333;
+	font-size: 16px;
+	margin: 0 10px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+footer a:hover {
+	color: #d82a4e;
+}
+
+footer p {
+	color: #333;
+	font-size: 16px;
+	text-align: center;
+}
